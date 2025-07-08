@@ -1,3 +1,17 @@
+
+
 docker-compose up mssql -d
 docker-compose up -d
 docker ps
+docker-compose down
+docker-compose up --build
+docker-compose logs --tail 50 inventory-service
+
+Nombre del Servidor (Server name): localhost,1433 (o 127.0.0.1,1433)
+Inicio de Sesión (Login): sa
+Contraseña (Password): YourStrongPassword_123
+
+
+dotnet build
+dotnet ef migrations add InitialCreate
+dotnet ef database update
