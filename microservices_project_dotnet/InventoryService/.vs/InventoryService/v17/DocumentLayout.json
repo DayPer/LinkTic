@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|c:\\workspace\\prueba\\microservices_project_dotnet\\inventoryservice\\models\\productapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|solutionrelative:models\\productapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|c:\\workspace\\prueba\\microservices_project_dotnet\\inventoryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|c:\\workspace\\prueba\\microservices_project_dotnet\\inventoryservice\\data\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|solutionrelative:data\\inventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|c:\\workspace\\prueba\\microservices_project_dotnet\\inventoryservice\\models\\inventoryrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|solutionrelative:models\\inventoryrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|c:\\workspace\\prueba\\microservices_project_dotnet\\inventoryservice\\middlewares\\apikeyauthmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|solutionrelative:middlewares\\apikeyauthmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|c:\\workspace\\prueba\\microservices_project_dotnet\\inventoryservice\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|solutionrelative:controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|c:\\workspace\\prueba\\microservices_project_dotnet\\inventoryservice\\services\\productapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|solutionrelative:services\\productapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|c:\\workspace\\prueba\\microservices_project_dotnet\\inventoryservice\\models\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|solutionrelative:models\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|c:\\workspace\\prueba\\microservices_project_dotnet\\inventoryservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0AF5A4BE-B3C4-4C9D-9C2B-426C7DF6FE1F}|InventoryService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InventoryItem.cs",
+              "DocumentMoniker": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Models\\InventoryItem.cs",
+              "RelativeDocumentMoniker": "Models\\InventoryItem.cs",
+              "ToolTip": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Models\\InventoryItem.cs",
+              "RelativeToolTip": "Models\\InventoryItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T02:14:29.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-05T02:11:10.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryDbContext.cs",
+              "DocumentMoniker": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Data\\InventoryDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\InventoryDbContext.cs",
+              "ToolTip": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Data\\InventoryDbContext.cs",
+              "RelativeToolTip": "Data\\InventoryDbContext.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:40:16.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T21:18:15.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "Controllers\\InventoryController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAnwCYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T21:16:33.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiKeyAuthMiddleware.cs",
+              "DocumentMoniker": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Middlewares\\ApiKeyAuthMiddleware.cs",
+              "RelativeDocumentMoniker": "Middlewares\\ApiKeyAuthMiddleware.cs",
+              "ToolTip": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Middlewares\\ApiKeyAuthMiddleware.cs",
+              "RelativeToolTip": "Middlewares\\ApiKeyAuthMiddleware.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAkwCwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T21:15:29.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductApiClient.cs",
+              "DocumentMoniker": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Services\\ProductApiClient.cs",
+              "RelativeDocumentMoniker": "Services\\ProductApiClient.cs",
+              "ToolTip": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Services\\ProductApiClient.cs",
+              "RelativeToolTip": "Services\\ProductApiClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T21:14:46.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductApiModel.cs",
+              "DocumentMoniker": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Models\\ProductApiModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProductApiModel.cs",
+              "ToolTip": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Models\\ProductApiModel.cs",
+              "RelativeToolTip": "Models\\ProductApiModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T21:13:19.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryRequests.cs",
+              "DocumentMoniker": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Models\\InventoryRequests.cs",
+              "RelativeDocumentMoniker": "Models\\InventoryRequests.cs",
+              "ToolTip": "C:\\WorkSpace\\Prueba\\microservices_project_dotnet\\InventoryService\\Models\\InventoryRequests.cs",
+              "RelativeToolTip": "Models\\InventoryRequests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T20:57:10.114Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

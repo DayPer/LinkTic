@@ -1,0 +1,86 @@
+# microservices_project_dotnet/docker-compose.yml
+
+# Define la versión de la sintaxis de Docker Compose. '3.8' es una versión estable y moderna.
+version: '3.8'
+
+# La sección 'services' define cada contenedor que será parte de tu aplicación multi-servicio.
+services:
+  products-service:
+    # Instruye a Docker Compose a construir la imagen de Docker para este servicio.
+    build:
+      context: ./ProductsService # Ruta al directorio que contiene el Dockerfile del ProductsService
+      dockerfile: Dockerfile     # Nombre del Dockerfile a usar
+    
+    # Asigna un nombre específico al contenedor, lo que facilita referenciarlo y gestionarlo.
+    container_name: products-service
+    
+    # Mapea los puertos del contenedor a los puertos de tu máquina local (el host).
+    # Formato: "PUERTO_HOST:PUERTO_CONTENEDOR"
+    # Esto significa que el puerto 80 del ProductsService dentro del contenedor
+    # será accesible en el puerto 5205 de tu máquina local.
+    ports:
+      - "5205:80" 
+    
+    # Define variables de entorno que estarán disponibles dentro del contenedor.
+    environment:
+      # Configura el URL en el que la aplicación ASP.NET Core escuchará dentro del contenedor.
+      # Escuchará en HTTP en el puerto 80. Crucial para la comunicación interna y mapeo de puertos.
+      - ASPNETCORE_URLS=http://+:80 
+    
+    # Conecta este servicio a una red definida por Docker Compose.
+    # Esto permite que los servicios en la misma red se comuniquen entre sí por su nombre de servicio.
+    networks:
+      - my_network
+
+  inventory-service:
+    # Construye la imagen de Docker para el InventoryService.
+    build:
+      context: ./InventoryService # Ruta al directorio que contiene el Dockerfile del InventoryService
+      dockerfile: Dockerfile     # Nombre del Dockerfile a usar
+    
+    container_name: inventory-service
+    
+    # Mapea el puerto 80 del InventoryService dentro del contenedor
+    # al puerto 5001 en tu máquina local.
+    ports:
+      - "5206:80" # Corregido a 5206 para evitar conflictos si 5001 ya estaba en uso
+    
+    environment:
+      - ASPNETCORE_URLS=http://+:80
+      # Nota: Aquí ya NO se define ProductServiceUrl. El código C# asume
+      # directamente "http://products-service:80" para la comunicación interna.
+    
+    # La directiva 'depends_on' ha sido eliminada. Esto significa que Docker Compose
+    # no garantizará un orden de inicio específico para este servicio.
+    # Ambos servicios intentarán iniciarse en paralelo.
+    # depends_on:
+    #   - products-service # ELIMINADO
+    
+    networks:
+      - my_network
+
+  # SERVICIO MSSQL - ¡CORREGIDA LA INDENTACIÓN!
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest # O la versión que prefieras (ej. 2019-latest)
+    container_name: mssql-db
+    ports:
+      - "1433:1433" # Mapea el puerto por defecto de SQL Server al host
+    environment:
+      SA_PASSWORD: "YourStrongPassword_123" # ¡CAMBIA ESTA CONTRASEÑA POR UNA SEGURA!
+      ACCEPT_EULA: "Y" # Acepta el Contrato de Licencia de Usuario Final
+    volumes:
+      - mssql_data:/var/opt/mssql # Persistencia de datos para que no se pierdan al reiniciar
+    networks:
+      - my_network
+
+# La sección 'networks' define las redes personalizadas que pueden usar tus servicios.
+# Una red de tipo 'bridge' es la más común para permitir la comunicación entre contenedores
+# en la misma máquina host.
+networks:
+  my_network:
+    driver: bridge
+
+# Define los volúmenes para la persistencia de datos.
+# Esto es CRUCIAL para que los datos de SQL Server no se pierdan al reiniciar el contenedor.
+volumes:
+  mssql_data:
